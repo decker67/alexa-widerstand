@@ -1,0 +1,22 @@
+{
+  "name": "alexa-widerstand",
+  "version": "1.0.0",
+  "description": "Berechnet den Farbcode für einen Widerstand.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "alexa",
+    "widerstand"
+  ],
+  "author": "Dirk Ecker",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.4.1"
+  },
+  "dependencies": {
+    "alexa-sdk": "^1.0.6"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "intents": [
+    {
+      "name": "AMAZON.CancelIntent",
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+    },
+    {
+      "name": "AMAZON.StopIntent",
+    },
+    {
+      "name": "GetResistorColorCoding",
+      "samples": [
+        "GetResistorColorCoding {resistor}",
+        "GetResistorColorCoding {resistor} Ohm",
+        "GetResistorColorCoding von {resistor}",
+        "GetResistorColorCoding von {resistor} Ohm",
+        "GetResistorColorCoding für {resistor}",
+        "GetResistorColorCoding für {resistor} Ohm",
+      ],
+      "slots": [
+        {
+          "name": "resistor",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    }
+  ]
+}
